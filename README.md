@@ -1,2 +1,2 @@
 - UseName: admin
-- PassWord: admin
+- PassWord: 123456

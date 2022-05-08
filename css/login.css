@@ -40,6 +40,7 @@ form {
   color: white;
   scroll-behavior: auto;
   width: 90%;
+  margin-bottom: 20px;
 }
 input[type=text], input[type=password] {
   width: 100%;

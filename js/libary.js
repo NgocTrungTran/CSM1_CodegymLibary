@@ -87,7 +87,7 @@ function addBook() {
     let bookLocation = document.querySelector('#bookLocation').value;
     let newBook = new Book(bookID, bookName, bookAuthor, bookTopic, bookPublishing, bookLocation);
 
-    books.push(newBook);
+    books.unshift(newBook);
     setData(key_data, books);
     renderBooks(books);
     countBooks(books);

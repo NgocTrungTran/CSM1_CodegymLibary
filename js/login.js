@@ -9,7 +9,7 @@ function login() {
     let passWord = document.querySelector('#password').value;
     if (validation(userName) && validation(passWord)) {
         if (userName == "admin" && passWord == "123456") {
-            window.location.replace("http://127.0.0.1:5500/CSM1_CodegymLibary/libaryManager.html");
+            window.location.replace("libaryManager.html");
         } else {
             alert('Wrong usename or password!');
             manager();
